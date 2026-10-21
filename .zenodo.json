@@ -1,6 +1,7 @@
 {
   "title": "Finite Game Equilibria: exhaustive pure-strategy equilibrium checks for explicit finite games",
   "version": "0.1.0",
+  "publication_date": "2026-10-21",
   "upload_type": "software",
   "description": "<p>Standard-library Python checker that enumerates every joint-action profile of an explicitly supplied finite game, reports each player's best unilateral deviation, and returns all pure-strategy epsilon-Nash equilibria. Pure strategies only (no mixed equilibria); cost grows as the product of the action counts. No claims beyond the supplied payoff table.</p>",
   "creators": [

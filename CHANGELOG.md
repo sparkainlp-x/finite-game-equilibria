@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.0 (2026-10-21)
 
 - First commit: the draft with only its indentation repaired (`spec/`).
 - Fixed: a single-string profile was split into characters (`analyze_profile(..., "ab")` became `("a", "b")`). Profiles must now be non-string sequences of the right length, with each action belonging to its player.
