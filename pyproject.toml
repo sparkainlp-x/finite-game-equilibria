@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finite-game-equilibria"
+version = "0.1.0"
+description = "Exhaustive pure-strategy equilibrium checks for explicit finite games (standard library only)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "AGPL-3.0-only"}
+authors = [{name = "Jean-François Brisson"}]
+dependencies = []
+
+[project.scripts]
+finite-game-equilibria = "finite_game_equilibria.__main__:main"
+
+[tool.setuptools]
+packages = ["finite_game_equilibria"]
