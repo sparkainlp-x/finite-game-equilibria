@@ -64,7 +64,7 @@ Each of these raises `ValueError`:
 
 ## Related repositories
 
-[oes-coordination-lab](https://github.com/sparkainlp-x/oes-coordination-lab) runs synthetic multi-agent coordination experiments and includes unilateral-deviation checks for its own policies. This repository is the general, standalone checker for any explicit finite game, with no simulation.
+[oes-coordination-lab](https://github.com/sparkainlp-x/oes-coordination-lab) ([10.5281/zenodo.23530288](https://doi.org/10.5281/zenodo.23530288), all versions) is a SYNTHETIC three-agent coordination model with hand-coded policies and no learning. It compares no signal, a shared signal and private signals, and in that toy setting information helped only once it was shared. It uses this checker, pinned to a fixed commit, to audit its policies for profitable unilateral deviations. This repository is the general, standalone checker for any explicit finite game, with no simulation.
 
 ## References
 
