@@ -1,5 +1,7 @@
 # Finite Game Equilibria
 
+Software DOI for v0.1.0: [10.5281/zenodo.23530287](https://doi.org/10.5281/zenodo.23530287) (all versions: [10.5281/zenodo.23530286](https://doi.org/10.5281/zenodo.23530286)).
+
 A small, standard-library Python checker that finds every **pure-strategy (epsilon-)Nash equilibrium** of an **explicitly supplied finite game**, and audits any single profile by showing each player's best unilateral deviation.
 
 ## Scope

@@ -2,6 +2,7 @@
 
 ## 0.1.0 (2026-10-21)
 
+- Archived on Zenodo: version DOI [10.5281/zenodo.23530287](https://doi.org/10.5281/zenodo.23530287), concept DOI [10.5281/zenodo.23530286](https://doi.org/10.5281/zenodo.23530286).
 - First commit: the draft with only its indentation repaired (`spec/`).
 - Fixed: a single-string profile was split into characters (`analyze_profile(..., "ab")` became `("a", "b")`). Profiles must now be non-string sequences of the right length, with each action belonging to its player.
 - Fixed: unhashable action names raised a bare `TypeError`. They now raise a clear `ValueError`.
